@@ -3,11 +3,11 @@
 
 # Tenhou wall reproducer
 
-Utility for reproducing the wall and dice information from the game seed in Tenhou platform.
+Utility for reproducing the wall and dice information from the game seed in [Tenhou](https://tenhou.net/) platform.
 
 ## Install
 
-**Tenhou wall reproducer** supports Python 3.7 3.8 and 3.9 in Linux and MacOS.
+**Tenhou wall reproducer** supports Python 3.7, 3.8, and 3.9 in Linux and MacOS environments.
 
 ```sh
 $ pip install tenhou-wall-reproducer
@@ -21,7 +21,7 @@ $ pip install tenhou-wall-reproducer
 [([124, 122, 37, 27, 80, 127, 125, 87, 104, 67, 115, 95, 8, 57, 92, 130, 69, 118, 20, 128, 35, 6, 123, 56, 103, 96, 55, 85, 109, 88, 32, 63, 26, 117, 16, 17, 82, 47, 68, 23, 9, 25, 65, 5, 39, 94, 76, 58, 97, 36, 14, 99, 111, 7, 133, 113, 31, 100, 131, 70, 28, 46, 30, 60, 79, 41, 74, 116, 75, 93, 105, 49, 91, 135, 114, 42, 45, 132, 21, 119, 18, 24, 129, 51, 121, 3, 81, 40, 29, 13, 34, 19, 86, 78, 53, 64, 50, 71, 120, 83, 66, 84, 126, 4, 12, 10, 101, 102, 22, 112, 15, 48, 134, 77, 0, 11, 108, 98, 61, 1, 107, 110, 59, 90, 2, 44, 54, 38, 89, 33, 62, 43, 73, 106, 72, 52], [4, 5])]
 ```
 
-Data is collected from http://tenhou.net/0/?log=2017020100gm-00e1-0000-17d39cdb
+Data is collected from http://tenhou.net/0/?log=2017020100gm-00e1-0000-17d39cdb.
 
 ## Build from source
 
