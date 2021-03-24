@@ -16,8 +16,6 @@ clean:
 	rm -rf venv
 	rm -rf src/mt*
 	rm -rf src/readme-mt.txt
-	rm -rf src/openssl-cmake
-	rm -rf src/pybind11
 	rm -rf build
 	rm -rf cmake-build-debug
 
