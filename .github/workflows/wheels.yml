@@ -1,14 +1,9 @@
-name: Wheels
+name: wheels
 
 # This file is forked from github.com/pybind/cmake_example
 # https://github.com/pybind/cmake_example/blob/master/LICENSE
 
 on:
-  workflow_dispatch:
-  pull_request:
-  push:
-    branches:
-     - master
   release:
     types:
       - published

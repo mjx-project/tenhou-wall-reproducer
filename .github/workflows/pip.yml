@@ -1,4 +1,4 @@
-name: Pip
+name: ci
 
 # This file is forked from github.com/pybind/cmake_example
 # https://github.com/pybind/cmake_example/blob/master/LICENSE
