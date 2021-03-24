@@ -1,4 +1,4 @@
-[![ci](https://github.com/mjx-project/tenhou_wall_reproducer/actions/workflows/ci.yml/badge.svg)](https://github.com/mjx-project/tenhou_wall_reproducer/actions/workflows/ci.yml)
+[![ci](https://github.com/mjx-project/tenhou-wall-reproducer/actions/workflows/ci.yml/badge.svg)](https://github.com/mjx-project/tenhou-wall-reproducer/actions/workflows/ci.yml)
 ![pypi](https://img.shields.io/pypi/v/tenhou-wall-reproducer)
 
 # Tenhou wall reproducer
