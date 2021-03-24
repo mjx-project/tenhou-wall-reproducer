@@ -29,4 +29,4 @@ $ python3 tests/test.py
 
 ## License
 
-TBA
+MIT
