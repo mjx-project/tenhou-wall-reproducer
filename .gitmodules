@@ -1,0 +1,6 @@
+[submodule "src/openssl-cmake"]
+	path = src/openssl-cmake
+	url = https://github.com/sotetsuk/openssl-cmake.git
+[submodule "src/pybind11"]
+	path = src/pybind11
+	url = https://github.com/pybind/pybind11.git
