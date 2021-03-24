@@ -1,13 +1,16 @@
+[![ci](https://github.com/mjx-project/tenhou_wall_reproducer/actions/workflows/ci.yml/badge.svg)](https://github.com/mjx-project/tenhou_wall_reproducer/actions/workflows/ci.yml)
+![pypi](https://img.shields.io/pypi/v/tenhou-wall-reproducer)
+
 # Tenhou wall reproducer
 
 Utility for reproducing the wall and dice information from the game seed in Tenhou platform.
 
 ## Install
 
-**tenhou_wall_reproducer** supports Python 3.7 3.8 and 3.9 in Linux and MacOS.
+**Tenhou wall reproducer** supports Python 3.7 3.8 and 3.9 in Linux and MacOS.
 
 ```sh
-$ pip install tenhou_wall_reproducer
+$ pip install tenhou-wall-reproducer
 ```
 
 ## Usage
