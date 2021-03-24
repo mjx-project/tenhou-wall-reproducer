@@ -1,0 +1,6 @@
+src/mt*
+src/readme*
+.idea
+build
+cmake-build-debug
+venv
