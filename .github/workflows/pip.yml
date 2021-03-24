@@ -1,0 +1,40 @@
+name: Pip
+
+# This file is forked from github.com/pybind/cmake_example
+# https://github.com/pybind/cmake_example/blob/master/LICENSE
+
+on: [push]
+
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        platform: [macos-latest, ubuntu-latest]
+        python-version: ["3.9"]
+
+    runs-on: ${{ matrix.platform }}
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - uses: actions/setup-python@v2
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - name: Install dependencies for ubuntu
+      if: matrix.platform == 'ubuntu-latest'
+      run: sudo apt install build-essential ninja-build
+    
+    - name: Install dependencies for macos
+      if: matrix.platform == 'macos-latest'
+      run: brew install gcc ninja && ln -sf $(ls -d /usr/local/bin/* | grep "/g++-" | sort -r | head -n1) /usr/local/bin/g++
+
+    - name: Add requirements
+      run: python3 -m pip install --upgrade wheel setuptools
+
+    - name: Build and install
+      run: make install
+
+    - name: Test
+      run: python3 tests/test.py
