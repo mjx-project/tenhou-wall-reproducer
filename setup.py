@@ -117,7 +117,7 @@ def read_readme():
 # logic and declaration, and simpler if you include description/version in a file.
 setup(
     name="tenhou_wall_reproducer",
-    version="1.1.1",
+    version="1.2.0",
     author="Sotetsu KOYAMADA",
     author_email="koyamada-s@sys.i.kyoto-u.ac.jp",
     description="Utility for reproducing the wall and dice information from the game seed in Tenhou platform.",

@@ -7,7 +7,7 @@ Utility for reproducing the wall and dice information from the game seed in [Ten
 
 ## Install
 
-**Tenhou wall reproducer** supports Python 3.7, 3.8, and 3.9 in Linux and MacOS environments.
+**Tenhou wall reproducer** supports Python 3.7, 3.8, and 3.9 in Linux and Intel Mac environments.
 
 ```sh
 $ pip install tenhou-wall-reproducer
