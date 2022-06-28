@@ -108,6 +108,10 @@ class CMakeBuild(build_ext):
         )
 
 
+def read_readme():
+    with open("README.md") as f:
+        return f.read()
+
 # The information here can also be placed in setup.cfg - better separation of
 # logic and declaration, and simpler if you include description/version in a file.
 setup(
@@ -116,7 +120,8 @@ setup(
     author="Sotetsu KOYAMADA",
     author_email="koyamada-s@sys.i.kyoto-u.ac.jp",
     description="Utility for reproducing the wall and dice information from the game seed in Tenhou platform.",
-    long_description="",
+    long_description=read_readme(),
+    long_description_content_type="text/markdown",
     ext_modules=[CMakeExtension("tenhou_wall_reproducer")],
     cmdclass={"build_ext": CMakeBuild},
     zip_safe=False,
