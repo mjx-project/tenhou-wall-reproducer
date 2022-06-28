@@ -63,7 +63,7 @@ jobs:
         CIBW_BEFORE_BUILD_MACOS: brew install gcc ninja && ln -sf $(ls -d /usr/local/bin/* | grep "/g++-" | sort -r | head -n1) /usr/local/bin/g++ && make src/mt19937ar.c && make submodules
         CIBW_BEFORE_BUILD_LINUX: pip install --upgrade pip setuptools wheel cmake ninja && make src/mt19937ar.c && make submodules
         CIBW_SKIP: "cp27-* cp35-* cp36-* *-win32 *win_amd64 pp*"
-        CIBW_ARCHS_MACOS: x86_64 arm64 universal2
+        CIBW_ARCHS_MACOS: universal2
 
     - name: Show files
       run: ls -lh wheelhouse
