@@ -112,7 +112,7 @@ class CMakeBuild(build_ext):
 # logic and declaration, and simpler if you include description/version in a file.
 setup(
     name="tenhou_wall_reproducer",
-    version="1.0.0",
+    version="1.1.0",
     author="Sotetsu KOYAMADA",
     author_email="koyamada-s@sys.i.kyoto-u.ac.jp",
     description="Utility for reproducing the wall and dice information from the game seed in Tenhou platform.",
