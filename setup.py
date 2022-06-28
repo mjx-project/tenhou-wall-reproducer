@@ -109,8 +109,9 @@ class CMakeBuild(build_ext):
 
 
 def read_readme():
-    with open("README.md") as f:
-        return f.read()
+    here = os.path.abspath(os.path.dirname(__file__))
+    return open(os.path.join(here, 'README.md'), encoding='utf-8').read().replace("\r", "")
+
 
 # The information here can also be placed in setup.cfg - better separation of
 # logic and declaration, and simpler if you include description/version in a file.
